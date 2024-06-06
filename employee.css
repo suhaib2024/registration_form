@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.st {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  background-color: aquamarine;
+  text-align: center;
+}
+.Q {
+  margin-left: 25px;
+  width: 40%;
+  margin-top: 10px;
+}
+.qas {
+  display: flex;
+  flex-direction: row;
+}
+.ans {
+  display: flex;
+  justify-content: start;
+  width: 43%;
+  margin-top: 10px;
+}
+button {
+  background-color: deepskyblue;
+  margin-top: 20px;
+  margin-right: 40px;
+  border-radius: 5px;
+  width: 128px;
+  height: 30px;
+}
+select {
+  margin-right: 40px;
+  border-radius: 5px;
+  width: 170px;
+  height: 21px;
+}
